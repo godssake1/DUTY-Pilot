@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ui.home.HomeFragment">
+    tools:context=".ui.home.HomeFragment"
+    android:layout_margin="8dp">
 
     <LinearLayout
         android:id="@+id/top_layout"
@@ -24,7 +25,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Today"
-                android:textSize="36sp"></TextView>
+                android:textSize="36sp"
+                android:autoSizeMaxTextSize="36sp"
+                android:autoSizeTextType="uniform"></TextView>
 
         </LinearLayout>
 
@@ -52,7 +55,6 @@
                     android:text="D"
                     android:textSize="70sp"
                     android:autoSizeMaxTextSize="70sp"
-                    android:autoSizeMinTextSize="30sp"
                     android:autoSizeTextType="uniform"></TextView>
             </LinearLayout>
 
@@ -74,9 +76,8 @@
                         android:layout_height="wrap_content"
                         android:clickable="true"
                         android:text="D"
-                        android:textSize="220sp"
-                        app:autoSizeMaxTextSize="220sp"
-                        app:autoSizeMinTextSize="180sp"
+                        android:textSize="200sp"
+                        app:autoSizeMaxTextSize="200sp"
                         app:autoSizeTextType="uniform"></TextView>
 
             </LinearLayout>
@@ -101,7 +102,6 @@
                     android:text="D"
                     android:textSize="70sp"
                     android:autoSizeMaxTextSize="70sp"
-                    android:autoSizeMinTextSize="30sp"
                     android:autoSizeTextType="uniform"></TextView>
             </LinearLayout>
 
@@ -126,7 +126,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Team"
-                android:textSize="36sp"></TextView>
+                android:textSize="36sp"
+                android:autoSizeMaxTextSize="36sp"
+                android:autoSizeTextType="uniform"></TextView>
 
         </LinearLayout>
 
@@ -139,7 +141,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Team"
-                android:textSize="36sp"></TextView>
+                android:textSize="36sp"
+                android:autoSizeMaxTextSize="36sp"
+                android:autoSizeTextType="uniform"></TextView>
 
         </LinearLayout>
 

@@ -15,8 +15,9 @@
 
     <fragment
         android:id="@+id/frag_settings"
-        android:name="com.example.duty_pilot.ui.settings.SettingItemsFragment"
+        android:name="com.example.duty_pilot.ui.settings.SettingsItemsFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:layout_margin="36dp"/>
 
 </LinearLayout>
